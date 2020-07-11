@@ -30,7 +30,7 @@ const App = () => {
 
                   <li>[Admin user] AddSubject returns error to client, but it is ok in API and DB. Solution review AJAX callback response</li>
                   <li>[All users] You can erase all right up messages by clicking in right bottom bin (orange)</li>
-                  <li>[Professors] Embed Jitsi is not finished, all info inside could not be correct, please use links and open in new tab.</li>
+                  <li>[Professor] Embed Jitsi is not finished, all info inside could not be correct, please use links and open in new tab.</li>
                 </ul>
 
               </div>
@@ -50,7 +50,7 @@ const App = () => {
               <div className="col mb-4">
 
                 <ul>
-                  <li>[Proffesor] Jutsu implements a unique div with id, a list of Jutsu elements is imposible. solution: create my own react-library for jitsi</li>
+                  <li>[Professor] Jutsu implements a unique div with id, a list of Jutsu elements is imposible. solution: create my own react-library for jitsi</li>
                   <li>[Prosody] Prosody mod_token_validation not accept characters that are now in the regular expression ^[a-z-0-9_.-]*$ -> Solution: change generateRoom api or add new field in MongoDB</li>
                 </ul>
 

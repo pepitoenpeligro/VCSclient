@@ -122,7 +122,7 @@ const Signin = ({history}) => {
                     <div className="row">
         
                       <div className="col mb-4"> 
-                        <h5>Proffesor user</h5>
+                        <h5>Professor user</h5>
                         <ul>
                             <li>profe@domain.com</li>
                             <li>201196</li>

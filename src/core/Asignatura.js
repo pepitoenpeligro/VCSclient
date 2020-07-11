@@ -17,8 +17,8 @@ const Item = (props) => {
 
     const [values, setValues] = useState({
         isGeneratingRoom:false,
-        buttonText: '1. Generate room for proffesor',
-        buttonTextStudent: '2. Generate for students',
+        buttonText: '1. Generate room for professor',
+        buttonTextStudent: '2. Manage students',
         domain: '',
         studentsList: [],
         subjectListActive: '',
@@ -145,7 +145,7 @@ const Item = (props) => {
                         <path fillRule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>
                         <path fillRule="evenodd" d="M6 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H6.5A.5.5 0 0 1 6 8zm-2.5 6a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 1 0v11a.5.5 0 0 1-.5.5z"/>
                         </svg>
-                        <a href={domain} >Proffesor's access</a>
+                        <a href={domain} >Professor's access</a>
                     </div>
                     <div>
                         <svg className="bi bi-link mr-2" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
